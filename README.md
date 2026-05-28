@@ -23,7 +23,11 @@ Due to file size constraints, the full code has been split into **9 separate zip
    ```bash
    cat MGGCL_part*.zip > MGGCL_full.zip && unzip MGGCL_full.zip
 
-### Code Structure Overview
+## 🧩 Code Structure Overview
+
+The main execution flow is as follows:
+
+```text
 main.py
 ├── argparse
 ├── ModelConf()
